@@ -1,38 +1,21 @@
 .header {
     height: 30px;
     width: auto;
-    
+    width: 315px;   
 }
 
 .titleheader {
-   margin-left: 2rem;
-    display: flex;
-    justify-content: left;
-    font-family: 'Montserrat';
-    font-weight: 700;
-    font-size: 1.1rem;
+  width: auto;
+  display: flex;
+justify-content: center;
+margin-left: 6rem;
 }
 
 .menuheader{
-
+width: 315px;
 }
 
-.mobile{
-    background-color: black;
-    margin-left: 20px;
-    color: white;
-    border-top: 2px solid;
-    width: 20px;
-}
 
-.mobile::after, .mobile::before{
-    content: '';
-    display: block;
-    width: 20px;
-    height: 2px;
-    background: currentColor;
-    margin-top: 4px;
-}
 
 .imgprincipal {
     background-image: url("assets/laranja_azul_recorte_mobile.png");
@@ -46,30 +29,32 @@
     padding: 0;
     margin: 0;
 }
+.main{
+    width: 315px;
+}
 .footer{
     display: flex;
     flex-direction: column;
-    width: auto;
+    width: 315px;
     padding: 0;
     margin: 0;
+    height: 8rem;
+
 }
 .imgfooter{
     width: auto;
     padding: 0;
-    margin: 0;  
+    margin: 0; 
+    margin-top: 1rem;
 }
 .textfooter{
-   width: auto; 
-   padding: 0;
-    margin: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   margin-top: 3%;
 }
-.titlefooter{
-    width: auto; 
-   padding: 0;
-    margin: 0;
-}
+
 .text{
-    width: auto; 
-   padding: 0;
-    margin: 0;
+   margin-top: 3%;
+    
 }
